@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <title>Day 8</title>
+    <script src="./assets/js/crud.js"></script>
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault();">
+      <label for="name" class="label-1">Name</label>
+      <input type="text" id="input-1" name="name" />
+
+      <button type="submit" onclick="add()">Add</button>
+    </form>
+    <div id="div-1"></div>
+
+    <table id="table-1">
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="taBody"></tbody>
+    </table>
+  </body>
+</html>
