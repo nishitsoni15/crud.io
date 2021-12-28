@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/style.css" rel="stylesheet" />
     <title>Day 8</title>
+    <script src="./assets/js/file.js"></script>
     <script src="./assets/js/crud.js"></script>
+    
   </head>
   <body>
     <form onsubmit="event.preventDefault();">
@@ -16,7 +18,7 @@
       <button type="submit" onclick="add()">Add</button>
     </form>
     <div id="div-1"></div>
-
+   
     <table id="table-1">
       <thead>
         <tr>
@@ -27,5 +29,6 @@
       </thead>
       <tbody id="taBody"></tbody>
     </table>
+    <div class="paginator"></div>
   </body>
 </html>
